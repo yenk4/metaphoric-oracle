@@ -127,7 +127,7 @@ with gr.Blocks(theme=gr.themes.Default(primary_hue="purple", neutral_hue="slate"
 
         with gr.Column(scale=1):
             gr.Markdown("### Your card")
-            output_image = gr.Image(label="Metaphoric card", show_label=False)
+            output_image = gr.Image(label="Metaphoric card", show_label=False, height=400)
             gr.Markdown("### Your guidance")
             output_text = gr.Markdown()
 
