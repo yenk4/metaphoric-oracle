@@ -88,11 +88,12 @@ with gr.Blocks(theme=gr.themes.Default(primary_hue="purple", neutral_hue="gray")
         fn=generate_portrait,
         inputs=[weather, animal, color, element, landscape],
         outputs=[output_image, output_prompt],
+        api_name=False,
     )
 
     gr.Markdown(
         "---\n*Powered by FLUX.1-schnell via HuggingFace Inference API · "
-        "Prompt engineering by [yenka.dev](https://yenka.dev)*"
+        "Prompts by [yenka.dev](https://yenka.dev)*"
     )
 
 if __name__ == "__main__":
