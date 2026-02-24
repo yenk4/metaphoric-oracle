@@ -94,7 +94,7 @@ def generate_reading(sphere, energy, need, symbol, truth):
         return None, f"Generation failed: {e}\n\n**Image prompt was:**\n`{image_prompt}`"
 
 
-with gr.Blocks(title=TITLE) as demo:
+with gr.Blocks(theme=gr.themes.Default(primary_hue="purple", neutral_hue="slate"), title=TITLE) as demo:
     gr.Markdown(f"# {TITLE}")
     gr.Markdown(DESCRIPTION)
 
@@ -144,4 +144,4 @@ with gr.Blocks(title=TITLE) as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(theme=gr.themes.Default(primary_hue="purple", neutral_hue="slate"))
+    demo.launch()
