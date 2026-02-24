@@ -86,7 +86,7 @@ def generate_reading(sphere, energy, need, symbol, truth):
         )
         advice_text = response.choices[0].message.content.strip()
 
-        image = client.text_to_image(image_prompt, model=IMAGE_MODEL)
+        image = client.text_to_image(image_prompt, model=IMAGE_MODEL, width=768, height=1024)
 
         return image, advice_text
 
