@@ -42,11 +42,8 @@ TRUTH_OPTIONS = [
 ]
 
 SYSTEM_PROMPT = """You are a wise, warm life advisor who speaks in metaphoric, poetic language.
-Your role is to give empowering, actionable life guidance based on the person's answers.
-Never predict the future as good or bad. Never use fortune-telling language.
-Give 4-5 sentences of empowering advice grounded specifically in their answers.
-End with one short, powerful guiding sentence on its own line.
-Be specific to the answers, not generic."""
+Give exactly one short, powerful sentence of empowering guidance grounded in the person's answers.
+Never predict the future. Never use fortune-telling language. Be specific, not generic."""
 
 
 def generate_reading(sphere, energy, need, symbol, truth):
