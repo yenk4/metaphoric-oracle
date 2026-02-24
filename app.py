@@ -14,7 +14,7 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 IMAGE_MODEL = "black-forest-labs/FLUX.1-schnell"
 TEXT_MODEL = "meta-llama/Llama-3.1-8B-Instruct"
 
-TITLE = "✨ METAPHORIC ORACLE ✨"
+TITLE = "🔮 METAPHORIC ORACLE 🔮"
 DESCRIPTION = """
 *Answer five questions. Receive a personal reading — wise life guidance and a metaphoric card painted just for you.*
 
@@ -123,7 +123,7 @@ with gr.Blocks(theme=gr.themes.Default(primary_hue="purple", neutral_hue="slate"
                 label="What is the honest truth you've been avoiding?",
             )
 
-            btn = gr.Button("✨ Reveal my oracle", variant="primary", size="lg")
+            btn = gr.Button("🔮 Reveal my oracle", variant="primary", size="lg")
 
         with gr.Column(scale=1):
             gr.Markdown("### Your card")

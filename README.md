@@ -1,6 +1,6 @@
 ---
 title: Metaphoric Oracle
-emoji: ✨
+emoji: 🔮
 colorFrom: purple
 colorTo: pink
 sdk: gradio
@@ -10,7 +10,7 @@ app_file: app.py
 pinned: false
 ---
 
-# ✨ Metaphoric Oracle
+# 🔮 Metaphoric Oracle
 
 **Answer 5 tarot-inspired questions → LLM generates wise life advice → FLUX paints your metaphoric card.**
 
