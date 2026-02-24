@@ -16,7 +16,7 @@ TITLE = "🔮 MOOD TO PORTRAIT 🔮"
 DESCRIPTION = """
 *Answer five questions about your inner state. Python will translate your mood into a FLUX image prompt and paint your portrait.*
 
-Built by [Yana Makovskaya](https://yenka.dev) — Senior ML/AI Engineer specializing in generative AI.
+Built by [yenka.dev] (https://yenka.dev)
 """
 
 WEATHER_OPTIONS = ["Stormy", "Foggy", "Sunny", "Rainy", "Blizzard"]
